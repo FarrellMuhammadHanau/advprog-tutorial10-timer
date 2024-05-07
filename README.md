@@ -1,0 +1,3 @@
+## 1.2. Understanding how it works.
+![alt text](image.png)
+Dari gambar tersebut, kalimat dengan akhiran "hey hey" akan dieksekusi terlebih dahulu sebelum dengan akhiran "howdy!" dan "done!". Hal ini dikarenakan "hey hey" di print sebelum executor.run() dimana executor.run() merupakan saat dimana task-task yang telah dispawn dijalankan, sehingga program akan mencetak "hey hey" terlebih dahulu lalu mengeksekusi task-task yang telah dispawn tersebut.
